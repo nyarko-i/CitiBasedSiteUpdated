@@ -8,7 +8,7 @@ body{
     margin:0;
     overflow-x: hidden;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: paleturquoise;
+    background-color:#fff;
 }
 
 a{
@@ -29,6 +29,7 @@ a{
     list-style:none;
     overflow:hidden;
     background-color:#fff;
+   
 }
 
 .header ul a{
@@ -36,6 +37,7 @@ a{
     padding:20px;
     border-right:1px solid #aaa;
     text-decoration:none;
+    outline: 1px solid #daa520;
 }
 
 .header ul a:hover{
@@ -119,6 +121,7 @@ a{
 }
 
 
+
 #sec1{
     display: flex;
     align-items: flex-start;
@@ -130,16 +133,19 @@ a{
 }
 
 b{
-    padding-top: 3em;
+    /* padding-top: 3em; */
     font-size:1.5em; 
     color:rgb(255, 215, 0);
-    margin-left: 3em;
+    /* margin-left: 3em; */
     text-shadow: 0px 3px 3px black;
+    display: flex;
+    justify-content: center;
     
 }
 
-#beach{
-padding: 1em;
+.beach{
+    display: flex;
+    justify-content: center;
 
 
 }
@@ -151,6 +157,53 @@ padding: 1em;
     padding: 2em;
    
  }
+
+ .container {
+    background-color: #FFD700;
+     width: 100%;
+    height: 300px;
+    display: none;
+    
+}
+.head{
+    font-size: 1.1em;
+    padding-top: 0.2em;
+    }
+
+
+.child-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.item{
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px rgb(54, 49, 49);
+    padding:0.5em;
+    font-weight: lighter;
+    font-size:medium;
+    font-weight: bold;
+
+}
+
+#sec2{
+    display: flex;
+    align-items: center;
+    font-family: Euclid Flex,MetaPlus,system-ui,BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    font-size: 1.5em;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+    gap:2.5em;
+    
+}
+
+.terrainshadow{
+    /*box-shadow:2px 2px 2px rgb(54, 49, 49);*/
+    color: #008000;
+}
 
 @media (min-width:48em){
 
@@ -168,6 +221,8 @@ padding: 1em;
     .header .menu-icon{
         display:none;
     }
+
+ 
 
 }
 
